@@ -1,7 +1,7 @@
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext, ConversationHandler
 
-TOKEN = '6577280428:AAHqP3mYOgAkfAN_su2U7F_s0qztGbvZexM'
+TOKEN = 'YOUR_TOKENBOT'
 
 # Define states for the conversation
 MAIN_MENU, PRODUCT_SELECTION, DELIVERY, CURRENCY_EXCHANGE, CONTACT_MANAGER, UNSURE_CHOICE = range(6)
